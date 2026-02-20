@@ -15,7 +15,7 @@ export default function Projects() {
           viewport={{ once: true }}
           className="text-4xl font-light tracking-tight mb-20"
         >
-          Selected Work
+          Crafting the Future
         </motion.h2>
 
         <div className="space-y-32">
@@ -83,7 +83,7 @@ export default function Projects() {
 
               <div className="mt-10 flex gap-6">
                 <a
-                  href="https://github.com/yourusername/project"
+                  href="https://github.com/ellen0825/senior-fastapi-template.git"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-blue-500 text-black rounded-md font-medium hover:bg-blue-400 transition"

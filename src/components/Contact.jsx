@@ -38,15 +38,11 @@ export default function Contact() {
             </h3>
 
             <p className="text-gray-400 leading-relaxed">
-              Currently open to remote or hybrid backend engineering roles.
-              I focus on distributed systems, performance engineering,
-              and production-grade reliability.
+              I am currently seeking **remote** or **hybrid** backend engineering opportunities. My expertise lies in creating scalable, performant, and resilient backend systems, with a particular focus on **distributed architectures** and **performance optimization**.
             </p>
 
             <p className="mt-6 text-gray-500 text-sm leading-relaxed">
-              If you're building systems that require stability,
-              architectural clarity, and long-term scalability —
-              we should talk.
+              If you are working on systems that require **long-term scalability**, **reliability**, and **clear architectural design**, I’d love to explore how I can contribute to your team.
             </p>
           </motion.div>
 

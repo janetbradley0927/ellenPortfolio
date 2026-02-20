@@ -20,8 +20,7 @@ export default function Footer() {
             </h3>
 
             <p className="mt-3 text-gray-500 text-sm max-w-md leading-relaxed">
-              Designing resilient backend systems with architectural precision.
-              Engineering built for scale, reliability, and long-term clarity.
+              Architecting backend systems with precision, scalability, and resilience in mind. Focused on long-term sustainability and performance.
             </p>
           </div>
 
@@ -50,7 +49,7 @@ export default function Footer() {
           </p>
 
           <p className="mt-3 md:mt-0">
-            Built with architectural intent.
+            Crafted with precision and long-term architectural intent.
           </p>
         </div>
 

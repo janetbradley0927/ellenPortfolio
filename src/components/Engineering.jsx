@@ -17,15 +17,13 @@ export default function Engineering() {
           className="mb-24"
         >
           <h2 className="text-4xl md:text-5xl font-light text-white tracking-tight">
-            Engineering Philosophy
+          Building Resilience Through Code
           </h2>
 
           <div className="mt-6 h-[1px] w-28 bg-blue-500" />
 
           <p className="mt-8 text-gray-400 max-w-2xl leading-relaxed">
-            Backend systems should be predictable, scalable, and resilient.
-            My engineering decisions prioritize long-term maintainability,
-            performance stability, and architectural clarity.
+            My approach to backend engineering is driven by the belief that systems should not only perform efficiently, but also be resilient, scalable, and maintainable over time. Every decision I make is guided by a deep commitment to clarity, quality, and long-term sustainability.
           </p>
         </motion.div>
 
@@ -43,18 +41,14 @@ export default function Engineering() {
             <div>
               <h3 className="text-white text-xl mb-4">Architecture</h3>
               <p className="text-gray-400 leading-relaxed">
-                Designed and maintained microservices architecture handling
-                production traffic. Focused on service boundary definition,
-                backward compatibility, and fault isolation.
+                My focus is on creating **microservices architectures** that are both clear and effective. I prioritize thoughtful service boundaries, ensuring backward compatibility and minimizing coupling, while always planning for fault isolation and graceful recovery.
               </p>
             </div>
 
             <div>
               <h3 className="text-white text-xl mb-4">Performance Engineering</h3>
               <p className="text-gray-400 leading-relaxed">
-                Optimized PostgreSQL execution plans, redesigned indexing strategies,
-                and reduced query latency in high-load environments.
-                Implemented Redis caching layers to minimize database pressure.
+                I have a strong focus on **performance**. Optimizing **PostgreSQL** execution plans and redesigning indexing strategies to handle high-load environments has been a core part of my work. Additionally, **Redis caching** has been key in minimizing database pressure and improving overall system efficiency.
               </p>
             </div>
           </motion.div>
@@ -70,17 +64,14 @@ export default function Engineering() {
             <div>
               <h3 className="text-white text-xl mb-4">Distributed Systems</h3>
               <p className="text-gray-400 leading-relaxed">
-                Built event-driven communication flows using RabbitMQ and Kafka.
-                Designed asynchronous pipelines for reliability and scalability.
+                I’ve designed and implemented **event-driven systems** using tools like **RabbitMQ** and **Kafka**. By structuring communication flows asynchronously, I ensure systems can scale efficiently, handle real-time data, and maintain high reliability under pressure.
               </p>
             </div>
 
             <div>
               <h3 className="text-white text-xl mb-4">Production Ownership</h3>
               <p className="text-gray-400 leading-relaxed">
-                Investigated production incidents, performed root-cause analysis,
-                and implemented long-term reliability improvements.
-                Engineering does not end at deployment.
+                I believe engineering doesn’t stop after deployment. I take full **ownership of production systems**, investigating incidents, performing **root-cause analysis**, and driving **reliability improvements** that ensure systems perform with stability and efficiency over time.
               </p>
             </div>
           </motion.div>
