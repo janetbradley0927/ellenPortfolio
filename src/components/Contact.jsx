@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="min-h-screen bg-black px-6 py-32 flex items-center"
     >
-      <div className="max-w-5xl mx-auto w-full">
+      <div className="max-w-6xl mx-auto w-full">
 
         {/* HEADER */}
         <motion.div
@@ -37,7 +37,7 @@ export default function Contact() {
               Availability
             </h3>
 
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 leading-relaxed max-w-xl">
               I am currently seeking **remote** or **hybrid** backend engineering opportunities. My expertise lies in creating scalable, performant, and resilient backend systems, with a particular focus on **distributed architectures** and **performance optimization**.
             </p>
 
