@@ -1,0 +1,69 @@
+import { motion } from "framer-motion";
+
+export default function Hero() {
+  return (
+    <section className="min-h-screen flex items-center justify-center bg-black px-6 pt-32">
+      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-20 items-center">
+
+        {/* LEFT */}
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9 }}
+        >
+          <h1 className="text-5xl md:text-6xl font-light text-white leading-tight tracking-tight">
+            Ellen Martinelli
+          </h1>
+
+          <h2 className="mt-3 text-2xl text-blue-400 font-medium tracking-wide">
+            Senior Backend Engineer
+          </h2>
+
+          <p className="mt-8 text-gray-400 leading-relaxed max-w-xl">
+            I design and operate production-grade distributed systems with a focus on 
+            scalability, resilience, and performance precision. 
+            Five years of commercial experience in high-load backend architecture.
+          </p>
+
+          <p className="mt-4 text-gray-500 text-sm tracking-wide">
+            St. Petersburg, Russia • Open to Remote / Hybrid
+          </p>
+
+          <div className="mt-12 flex gap-6">
+            <a
+              href="#projects"
+              className="px-7 py-3 bg-blue-500 text-black rounded-md font-medium hover:bg-blue-400 transition duration-300"
+            >
+              View Projects
+            </a>
+
+            <a
+              href="#contact"
+              className="px-7 py-3 border border-gray-700 text-gray-300 rounded-md hover:border-blue-400 hover:text-blue-400 transition duration-300"
+            >
+              Contact
+            </a>
+          </div>
+        </motion.div>
+
+        {/* RIGHT - IMAGE */}
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1 }}
+          className="flex justify-center"
+        >
+          <div className="relative">
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-blue-500/20 to-transparent blur-2xl" />
+            <img
+              src="/profile.jpg"
+              alt="Ellen Martinelli"
+              className="relative w-[340px] h-[340px] object-cover rounded-xl border border-gray-800 shadow-xl"
+            />
+          </div>
+        </motion.div>
+
+      </div>
+    </section>
+  );
+}
