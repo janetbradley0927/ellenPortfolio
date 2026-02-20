@@ -20,13 +20,13 @@ export default function Hero() {
           </h2>
 
           <p className="mt-8 text-gray-400 leading-relaxed max-w-xl">
-            I design and operate production-grade distributed systems with a focus on 
-            scalability, resilience, and performance precision. 
-            Five years of commercial experience in high-load backend architecture.
+            I am a Senior Backend Engineer with over 5 years of experience in building scalable, resilient, and high-performance backend systems.  
+            My expertise spans **Python (FastAPI, async programming)**, **microservices architecture**, and **PostgreSQL optimization**. 
+            Passionate about creating production-grade systems that power mission-critical applications.
           </p>
 
           <p className="mt-4 text-gray-500 text-sm tracking-wide">
-            St. Petersburg, Russia • Open to Remote / Hybrid
+            Available for Remote Opportunities
           </p>
 
           <div className="mt-12 flex gap-6">
@@ -56,7 +56,7 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-blue-500/20 to-transparent blur-2xl" />
             <img
-              src="/profile.jpg"
+              src="/profile.jpg"  // Make sure to add your profile image here
               alt="Ellen Martinelli"
               className="relative w-[340px] h-[340px] object-cover rounded-xl border border-gray-800 shadow-xl"
             />
